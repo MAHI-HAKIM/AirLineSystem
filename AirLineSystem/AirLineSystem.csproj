@@ -107,10 +107,28 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Membership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Membership.Designer.cs">
+      <DependentUpon>Membership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="splashscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splashscreen.Designer.cs">
+      <DependentUpon>splashscreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Membership.resx">
+      <DependentUpon>Membership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splashscreen.resx">
+      <DependentUpon>splashscreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -120,6 +138,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -134,6 +153,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlpashScreenImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image.11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-25 at 18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-25 at 18.34.57.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-25 at 18.37.11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-25 at 22.29.43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3297666771641893727-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-26 at 02.16.47.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3297666771641893727-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4200742411644666177-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\158970505916276584893773-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4200742411644666177-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\158970505916276584893773-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10518404451618134427-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10518404451618134427-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />

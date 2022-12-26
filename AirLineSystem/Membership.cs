@@ -10,25 +10,23 @@ using System.Windows.Forms;
 
 namespace AirLineSystem
 {
-    public partial class Login : Form
+    public partial class Membership : Form
     {
-        public Login()
+        public Membership()
         {
             InitializeComponent();
         }
-        private void exitButton_Click(object sender, EventArgs e)
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+
         }
-        private void guna2GradientButton2_Click(object sender, EventArgs e)
-        {
-            Membership m = new Membership();
-            m.Show();
-            this.Hide();
-        }
+
         private void guna2GradientButton3_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Login lg = new Login();
+            lg.Show();
+            this.Hide();
         }
     }
 }
