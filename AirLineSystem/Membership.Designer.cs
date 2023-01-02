@@ -32,10 +32,12 @@ namespace AirLineSystem
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Membership));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.SignUpButton = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.passWORDtxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.userNAMEtxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,12 +45,10 @@ namespace AirLineSystem
             this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -56,27 +56,28 @@ namespace AirLineSystem
             this.guna2Elipse1.BorderRadius = 20;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // guna2GradientButton2
+            // SignUpButton
             // 
-            this.guna2GradientButton2.Animated = true;
-            this.guna2GradientButton2.AutoRoundedCorners = true;
-            this.guna2GradientButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton2.BorderRadius = 29;
-            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton2.FillColor = System.Drawing.Color.SlateBlue;
-            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Indigo;
-            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(447, 437);
-            this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(144, 60);
-            this.guna2GradientButton2.TabIndex = 15;
-            this.guna2GradientButton2.Text = "Sign up";
-            this.guna2GradientButton2.UseTransparentBackground = true;
+            this.SignUpButton.Animated = true;
+            this.SignUpButton.AutoRoundedCorners = true;
+            this.SignUpButton.BackColor = System.Drawing.Color.Transparent;
+            this.SignUpButton.BorderRadius = 25;
+            this.SignUpButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.SignUpButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.SignUpButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SignUpButton.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SignUpButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.SignUpButton.FillColor = System.Drawing.Color.SlateBlue;
+            this.SignUpButton.FillColor2 = System.Drawing.Color.Indigo;
+            this.SignUpButton.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.SignUpButton.ForeColor = System.Drawing.Color.White;
+            this.SignUpButton.Location = new System.Drawing.Point(447, 437);
+            this.SignUpButton.Name = "SignUpButton";
+            this.SignUpButton.Size = new System.Drawing.Size(144, 52);
+            this.SignUpButton.TabIndex = 15;
+            this.SignUpButton.Text = "Sign up";
+            this.SignUpButton.UseTransparentBackground = true;
+            this.SignUpButton.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
             // label2
             // 
@@ -115,6 +116,34 @@ namespace AirLineSystem
             this.guna2Panel1.Size = new System.Drawing.Size(334, 562);
             this.guna2Panel1.TabIndex = 10;
             // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.guna2CirclePictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.BackgroundImage")));
+            this.guna2CirclePictureBox2.FillColor = System.Drawing.SystemColors.WindowFrame;
+            this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(231, 119);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(103, 93);
+            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.guna2CirclePictureBox2.TabIndex = 17;
+            this.guna2CirclePictureBox2.TabStop = false;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2PictureBox1.BorderRadius = 20;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(334, 551);
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // passWORDtxt
             // 
             this.passWORDtxt.BorderColor = System.Drawing.Color.Navy;
@@ -129,13 +158,13 @@ namespace AirLineSystem
             this.passWORDtxt.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.passWORDtxt.ForeColor = System.Drawing.Color.Maroon;
             this.passWORDtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passWORDtxt.Location = new System.Drawing.Point(393, 366);
+            this.passWORDtxt.Location = new System.Drawing.Point(361, 304);
             this.passWORDtxt.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.passWORDtxt.Name = "passWORDtxt";
             this.passWORDtxt.PasswordChar = '\0';
             this.passWORDtxt.PlaceholderText = "password";
             this.passWORDtxt.SelectedText = "";
-            this.passWORDtxt.Size = new System.Drawing.Size(253, 54);
+            this.passWORDtxt.Size = new System.Drawing.Size(324, 47);
             this.passWORDtxt.TabIndex = 9;
             // 
             // userNAMEtxt
@@ -152,14 +181,14 @@ namespace AirLineSystem
             this.userNAMEtxt.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.userNAMEtxt.ForeColor = System.Drawing.Color.MidnightBlue;
             this.userNAMEtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.userNAMEtxt.Location = new System.Drawing.Point(393, 244);
+            this.userNAMEtxt.Location = new System.Drawing.Point(361, 250);
             this.userNAMEtxt.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.userNAMEtxt.Name = "userNAMEtxt";
             this.userNAMEtxt.PasswordChar = '\0';
             this.userNAMEtxt.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.userNAMEtxt.PlaceholderText = "username";
             this.userNAMEtxt.SelectedText = "";
-            this.userNAMEtxt.Size = new System.Drawing.Size(253, 50);
+            this.userNAMEtxt.Size = new System.Drawing.Size(324, 47);
             this.userNAMEtxt.TabIndex = 8;
             // 
             // label3
@@ -188,13 +217,13 @@ namespace AirLineSystem
             this.emailtxt.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.emailtxt.ForeColor = System.Drawing.Color.Maroon;
             this.emailtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.emailtxt.Location = new System.Drawing.Point(393, 304);
+            this.emailtxt.Location = new System.Drawing.Point(361, 368);
             this.emailtxt.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.emailtxt.Name = "emailtxt";
             this.emailtxt.PasswordChar = '\0';
             this.emailtxt.PlaceholderText = "email";
             this.emailtxt.SelectedText = "";
-            this.emailtxt.Size = new System.Drawing.Size(253, 52);
+            this.emailtxt.Size = new System.Drawing.Size(324, 47);
             this.emailtxt.TabIndex = 18;
             // 
             // guna2GradientButton3
@@ -202,7 +231,7 @@ namespace AirLineSystem
             this.guna2GradientButton3.Animated = true;
             this.guna2GradientButton3.AutoRoundedCorners = true;
             this.guna2GradientButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton3.BorderRadius = 15;
+            this.guna2GradientButton3.BorderRadius = 24;
             this.guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2GradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2GradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -258,34 +287,6 @@ namespace AirLineSystem
             this.guna2CirclePictureBox1.TabIndex = 16;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
-            // guna2CirclePictureBox2
-            // 
-            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.guna2CirclePictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.BackgroundImage")));
-            this.guna2CirclePictureBox2.FillColor = System.Drawing.SystemColors.WindowFrame;
-            this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
-            this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(231, 119);
-            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
-            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(103, 93);
-            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.guna2CirclePictureBox2.TabIndex = 17;
-            this.guna2CirclePictureBox2.TabStop = false;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.guna2PictureBox1.BorderRadius = 20;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 3);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(334, 551);
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // Membership
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -297,7 +298,7 @@ namespace AirLineSystem
             this.Controls.Add(this.emailtxt);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.guna2CirclePictureBox1);
-            this.Controls.Add(this.guna2GradientButton2);
+            this.Controls.Add(this.SignUpButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Panel1);
@@ -308,9 +309,9 @@ namespace AirLineSystem
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Membership";
             this.guna2Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -319,7 +320,7 @@ namespace AirLineSystem
         #endregion
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
+        private Guna.UI2.WinForms.Guna2GradientButton SignUpButton;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;

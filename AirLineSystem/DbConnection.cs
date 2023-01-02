@@ -18,6 +18,7 @@ namespace AirLineSystem
         {
             if (connection.State == System.Data.ConnectionState.Closed)
             {
+
                 connection.Open();
             }
         }

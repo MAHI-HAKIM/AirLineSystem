@@ -42,6 +42,7 @@ namespace AirLineSystem
             this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label3 = new System.Windows.Forms.Label();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -58,7 +59,7 @@ namespace AirLineSystem
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(266, 517);
+            this.guna2Panel1.Size = new System.Drawing.Size(266, 534);
             this.guna2Panel1.TabIndex = 2;
             // 
             // guna2PictureBox1
@@ -99,7 +100,7 @@ namespace AirLineSystem
             this.usernametxt.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.usernametxt.ForeColor = System.Drawing.Color.Maroon;
             this.usernametxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.usernametxt.Location = new System.Drawing.Point(284, 207);
+            this.usernametxt.Location = new System.Drawing.Point(275, 257);
             this.usernametxt.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.usernametxt.Name = "usernametxt";
             this.usernametxt.PasswordChar = '\0';
@@ -123,7 +124,7 @@ namespace AirLineSystem
             this.passwordtxt.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.passwordtxt.ForeColor = System.Drawing.Color.Maroon;
             this.passwordtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passwordtxt.Location = new System.Drawing.Point(284, 279);
+            this.passwordtxt.Location = new System.Drawing.Point(275, 319);
             this.passwordtxt.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.passwordtxt.Name = "passwordtxt";
             this.passwordtxt.PasswordChar = '\0';
@@ -147,12 +148,13 @@ namespace AirLineSystem
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Red;
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(284, 364);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(275, 390);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(113, 56);
             this.guna2GradientButton1.TabIndex = 3;
             this.guna2GradientButton1.Text = "Log in";
             this.guna2GradientButton1.UseTransparentBackground = true;
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // label2
             // 
@@ -181,7 +183,7 @@ namespace AirLineSystem
             this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Yellow;
             this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(405, 364);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(396, 390);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.Size = new System.Drawing.Size(113, 55);
             this.guna2GradientButton2.TabIndex = 7;
@@ -204,7 +206,7 @@ namespace AirLineSystem
             this.guna2GradientButton3.FillColor2 = System.Drawing.Color.Maroon;
             this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton3.Image = global::AirLineSystem.Properties.Resources._158970505916276584893773_481;
+            this.guna2GradientButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton3.Image")));
             this.guna2GradientButton3.ImageSize = new System.Drawing.Size(25, 25);
             this.guna2GradientButton3.Location = new System.Drawing.Point(538, 12);
             this.guna2GradientButton3.Name = "guna2GradientButton3";
@@ -225,6 +227,25 @@ namespace AirLineSystem
             this.label3.TabIndex = 24;
             this.label3.Text = "World";
             // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderRadius = 10;
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "Admin",
+            "Passanger"});
+            this.guna2ComboBox1.Location = new System.Drawing.Point(275, 168);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(154, 36);
+            this.guna2ComboBox1.TabIndex = 25;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
@@ -232,7 +253,8 @@ namespace AirLineSystem
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(595, 517);
+            this.ClientSize = new System.Drawing.Size(595, 534);
+            this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.guna2GradientButton3);
             this.Controls.Add(this.guna2GradientButton2);
@@ -268,5 +290,6 @@ namespace AirLineSystem
         private Guna.UI2.WinForms.Guna2TextBox usernametxt;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
         private System.Windows.Forms.Label label3;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
     }
 }
