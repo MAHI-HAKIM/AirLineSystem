@@ -49,7 +49,7 @@ namespace AirLineSystem
             // 
             // guna2Elipse1
             // 
-            this.guna2Elipse1.BorderRadius = 45;
+            this.guna2Elipse1.BorderRadius = 10;
             this.guna2Elipse1.TargetControl = this;
             // 
             // guna2ShadowForm1
@@ -142,7 +142,6 @@ namespace AirLineSystem
             this.Name = "splashscreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LogIn";
-            this.Load += new System.EventHandler(this.splashscreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

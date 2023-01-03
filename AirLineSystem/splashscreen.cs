@@ -16,13 +16,12 @@ namespace AirLineSystem
         {
             InitializeComponent();
         }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             if(guna2CircleProgressBar1.Value == 100)
             {
                 timer1.Stop();
-                Login l = new Login();
+                LoginForm l = new LoginForm();
                 l.Show();
                 this.Hide();
             }
@@ -30,13 +29,8 @@ namespace AirLineSystem
             {
                 guna2CircleProgressBar1.Value += 3;
                 loadinglabel.Text = "Loading ...."+guna2CircleProgressBar1.Value.ToString() + "%";
-
-
             }
         }
 
-        private void splashscreen_Load(object sender, EventArgs e)
-        {
-        }
     }
 }

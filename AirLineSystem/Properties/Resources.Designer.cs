@@ -93,6 +93,56 @@ namespace AirLineSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _10518404451618134427_482 {
+            get {
+                object obj = ResourceManager.GetObject("10518404451618134427-482", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _11329411081629885491_64 {
+            get {
+                object obj = ResourceManager.GetObject("11329411081629885491-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _11557596051556258258_20__1_ {
+            get {
+                object obj = ResourceManager.GetObject("11557596051556258258-20 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _13470516741553239385_24 {
+            get {
+                object obj = ResourceManager.GetObject("13470516741553239385-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _15860335521644989902_64 {
+            get {
+                object obj = ResourceManager.GetObject("15860335521644989902-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _158970505916276584893773_48 {
             get {
                 object obj = ResourceManager.GetObject("158970505916276584893773-48", resourceCulture);
@@ -106,6 +156,16 @@ namespace AirLineSystem.Properties {
         internal static System.Drawing.Bitmap _158970505916276584893773_481 {
             get {
                 object obj = ResourceManager.GetObject("158970505916276584893773-481", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _18451203021618135044_64 {
+            get {
+                object obj = ResourceManager.GetObject("18451203021618135044-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +206,16 @@ namespace AirLineSystem.Properties {
         internal static System.Drawing.Bitmap _4200742411644666177_32 {
             get {
                 object obj = ResourceManager.GetObject("4200742411644666177-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4448266481617722290_48 {
+            get {
+                object obj = ResourceManager.GetObject("4448266481617722290-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +316,16 @@ namespace AirLineSystem.Properties {
         internal static System.Drawing.Bitmap home1 {
             get {
                 object obj = ResourceManager.GetObject("home1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_man_with_glasses_shopping_cart_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-man-with-glasses-shopping-cart-100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -366,6 +446,16 @@ namespace AirLineSystem.Properties {
         internal static System.Drawing.Bitmap WhatsApp_Image_2022_12_26_at_02_16_47 {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2022-12-26 at 02.16.47", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp1 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

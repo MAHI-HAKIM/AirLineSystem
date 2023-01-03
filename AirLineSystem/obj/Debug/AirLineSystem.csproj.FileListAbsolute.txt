@@ -79,9 +79,7 @@ C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Project
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\bin\Debug\System.ValueTuple.xml
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.csproj.AssemblyReference.cache
-C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.Admin.resources
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.Form1.resources
-C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.Login.resources
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.Membership.resources
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.splashscreen.resources
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.Properties.Resources.resources
@@ -90,3 +88,6 @@ C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Project
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.csproj.CoreCompileInputs.cache
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.exe
 C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.pdb
+C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.AdminForm.resources
+C:\Users\mahia\Desktop\3.SEMESTER\1.DatabaseManagementSystems\1.Database Projects\AirLineSystem\AirLineSystem\obj\Debug\AirLineSystem.LoginForm.resources

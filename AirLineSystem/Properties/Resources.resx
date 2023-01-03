@@ -124,8 +124,17 @@
   <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-man-with-glasses-shopping-cart-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-man-with-glasses-shopping-cart-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pilot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pilot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10518404451618134427-482" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10518404451618134427-482.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-person-60" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-person-60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,6 +148,9 @@
   <data name="plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="luggage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\luggage.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="plane1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plane1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,11 +160,17 @@
   <data name="4200742411644666177-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4200742411644666177-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="13470516741553239385-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13470516741553239385-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="4200742411644666177-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4200742411644666177-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WhatsApp_Image_2022_12_25_at_18_34_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2022-12-25 at 18.34.57.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11557596051556258258-20 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11557596051556258258-20 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,14 +193,17 @@
   <data name="3297666771641893727-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3297666771641893727-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="10518404451618134427-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10518404451618134427-481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="4448266481617722290-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4448266481617722290-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3297666771641893727-641" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3297666771641893727-641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="flights" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flights.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10518404451618134427-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10518404451618134427-481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WhatsApp_Image_2022_12_25_at_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2022-12-25 at 18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,16 +220,22 @@
   <data name="158970505916276584893773-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\158970505916276584893773-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="luggage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\luggage.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="11329411081629885491-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11329411081629885491-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18451203021618135044-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18451203021618135044-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Clouds_from_aircraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Clouds_from_aircraft.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="15860335521644989902-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15860335521644989902-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="10518404451618134427-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\10518404451618134427-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WhatsApp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

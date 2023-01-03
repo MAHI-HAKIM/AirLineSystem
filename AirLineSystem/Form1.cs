@@ -31,7 +31,7 @@ namespace AirLineSystem
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Login lg = new Login();
+            AdminForm lg = new AdminForm();
             lg.Show();
             this.Hide();
         }

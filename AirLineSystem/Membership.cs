@@ -26,7 +26,7 @@ namespace AirLineSystem
 
         private void guna2GradientButton3_Click(object sender, EventArgs e)
         {
-            Login lg = new Login();
+            LoginForm lg = new LoginForm();
             lg.Show();
             this.Hide();
         }

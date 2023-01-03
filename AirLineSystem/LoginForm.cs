@@ -4,37 +4,28 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using Npgsql;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Npgsql;
 
 namespace AirLineSystem
 {
-    public partial class Login : Form
+    public partial class LoginForm : Form
     {
         NpgsqlConnection connection = new NpgsqlConnection("server = localhost ; port = 5432 ; Database = AirLineDBSystem ; user Id = postgres ; password = Mahi.2003");
 
-        public Login()
+        public LoginForm()
         {
             InitializeComponent();
         }
-        private void exitButton_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-        private void guna2GradientButton2_Click(object sender, EventArgs e)
-        {
-            Membership m = new Membership();
-            m.Show();
-            this.Hide();
-        }
+
         private void guna2GradientButton3_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        private void login_btn_Click(object sender, EventArgs e)
         {
             //Checks if the textbox is Empty or not
             if (usernametxt.Text == "" || passwordtxt.Text == "")
@@ -51,9 +42,9 @@ namespace AirLineSystem
                         if (usernametxt.Text == "Admin" && passwordtxt.Text == "admin")
                         {
 
-                            Admin ad = new Admin();
-                            ad.Show();
+                            AdminForm ad = new AdminForm();
                             this.Hide();                          //
+                            ad.Show();
                         }
                         else
                         {
@@ -80,8 +71,6 @@ namespace AirLineSystem
                         {
                             MessageBox.Show("Wrong Username or Password", "Wrong Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             connection.Close();
-
-
                         }
                     }
                 }
@@ -89,10 +78,23 @@ namespace AirLineSystem
                 {
                     MessageBox.Show("Please Select Role", "Wrong Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-            }catch(Exception error)
+            }
+            catch (Exception error)
             {
                 MessageBox.Show(error.Message);
             }
+        }
+
+        private void signupbtn_Click(object sender, EventArgs e)
+        {
+            Membership mb = new Membership();
+            mb.Show();
+            this.Hide();
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
